@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, border-style, #root {
+  min-height: 100%;
+}
+
+body, input, button {
+  -webkit-font-smoothing: antialiased !important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !important; }
+
+
+.select-color {
+    color: #037fff;
+}
