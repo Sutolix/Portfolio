@@ -4,7 +4,28 @@ import { Link } from 'react-router-dom'
 import './menu.css'
 import avatar from "../../assets/img/avatar.webp"
 
-import { TiSocialGithubCircular, TiSocialLinkedinCircular } from 'react-icons/ti';
+const menu = [
+  {
+    label: 'Home',
+    path: '/'
+  },
+  {
+    label: 'Sobre',
+    path: '/'
+  },
+  {
+    label: 'Resumo',
+    path: '/'
+  },
+  {
+    label: 'Portfólio',
+    path: '/'
+  },
+  {
+    label: 'Contato',
+    path: '/'
+  },
+]
 
 export default function Menu () {
   return (
@@ -15,11 +36,9 @@ export default function Menu () {
       <div className="line"></div>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Sobre</li>
-          <li>Resumo</li>
-          <li>Portfólio</li>
-          <li>Contao</li>
+        {menu.map(item => (
+            <li><Link to={item.path}>{item.label}</Link></li>
+          ))}
         </ul>
       </nav>
       <div className="line"></div>

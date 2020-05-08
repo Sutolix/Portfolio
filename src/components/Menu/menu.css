@@ -31,20 +31,38 @@
 }
 
 .menu nav ul li:nth-child(n + 2) {
-	margin-top: 20px;
+	margin-top: 12px;
 }
 
 .menu nav ul li {
+	position: relative;
+	padding: 8px 0;
+	z-index: 1;
 	list-style: none;
 	cursor: pointer;
 	font-size: 1.4em;
 	text-transform: uppercase;
 }
 
-
-.menu nav ul li:hover {
-	background: #037fff;
+.menu nav ul li a {
+	text-decoration: none;
+	color: #fff;
 }
+
+.menu nav ul li::before{
+content: '';
+position: absolute;
+z-index: -1;
+top:0;
+left: 0;
+width: 0;
+height: 100%;
+background: #037fff;
+filter: brightness(0.2);
+transition: .5s ease;
+}
+
+.menu nav ul li:hover::before { width: 100% }
 
 .menu .me {
   margin-top: auto;
