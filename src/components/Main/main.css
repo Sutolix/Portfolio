@@ -3,10 +3,10 @@
 }
 
 .menu {
+	position: fixed;
 	z-index: 3;
-	width: 20vw;
+	min-width: 22vw;
 	height: 100vh;
-	min-width: 250px;
 	background: #000;
 	color: #fff;
 	display: flex;
@@ -54,6 +54,7 @@
 
 .menu nav .option label {
 	cursor: pointer;
+	font-weight: 700;
 }
 
 .menu nav .option::before{
@@ -74,4 +75,8 @@ transition: .5s ease;
 .menu .me {
   margin-top: auto;
   margin-bottom: 5px;
+}
+
+input[type=radio]:checked + label {
+	color: #037fff;
 }

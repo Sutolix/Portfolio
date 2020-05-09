@@ -1,0 +1,170 @@
+html, body {
+    height: 100%;
+}
+
+.sobre {
+    position: relative;
+    margin-left: 22vw;
+    width: 80%;
+    display: flex;
+}
+
+.background {
+  position: fixed;
+}
+
+.animation {
+  display: table;
+  width: 88vh;
+  height: 100vh;
+  background-color: #020317;
+  color: #000;
+  line-height: 1.6;
+  position: relative;
+  overflow: hidden;
+}
+
+.lines {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  margin: auto;
+  width: 80vw;
+}
+
+.lines .line {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.lines .line::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 15vh;
+  width: 100%;
+  top: -50%;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+  animation: run 7s 0s infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+
+.lines .line:nth-child(1) {
+  margin-left: -25%;
+}
+
+.lines .line:nth-child(1)::after {
+  animation-delay: 2s;
+}
+
+.lines .line:nth-child(3) {
+  margin-left: 25%;
+}
+
+.lines .line:nth-child(3)::after {
+  animation-delay: 2.5s;
+}
+
+
+
+
+
+
+.content {
+  z-index: 1;
+  color: #fff;
+  width: 100%;
+  margin: 0 2%;
+}
+
+ .title {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+ .title span{
+  font-size: 2em;
+  font-weight: 700;
+}
+
+ .layer {
+  font-size: 1.5em;
+  margin-left: 5%;
+}
+
+ .layer span{
+  font-size: 2em;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.about .description {
+  max-width: 600px; 
+  margin: 5%;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.2em;
+}
+
+.about .description .description-title {
+  color: #fff;
+}
+
+.about .description .description-text{
+  margin-top: 20px;
+}
+
+.about .description .info{
+  margin-top: 5%;
+  max-width: 370px;
+}
+
+.services .s-items {
+  margin: 5% 0;
+  justify-content: space-around;
+}
+
+.services .s-items .s-item{
+  width: 17em;
+  height: 13em;
+  background: #000;
+  border-top: 4px solid #ccc;
+  padding: 10px;
+}
+
+.services .s-items .s-item .division{
+  width: 50px;
+  height: 2px;
+  background: #ccc;
+  margin: 15px 0;
+}
+.services .s-items .s-item .item-icon{
+  font-weight: 500;
+  flex-direction: column;
+}
+
+.services .s-items .s-item .item-icon span{
+  margin-top: 5%;
+}
+
+.services .s-items .s-item .item-description{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@keyframes run {
+  0% {
+    top: -50%;
+  }
+
+  100% {
+    top: 110%;
+  }
+}

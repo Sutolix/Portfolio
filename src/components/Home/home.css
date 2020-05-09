@@ -1,9 +1,9 @@
 .home {
     display: flex;
+    margin-left: 22vw;
     justify-content: center;
     align-items: center;
-
-        width: 80%;
+    width: 80%;
     height: 100vh;
 }
 

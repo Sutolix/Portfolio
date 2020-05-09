@@ -12,8 +12,8 @@ export default function Home () {
       	Além de websites com boa ambientação e de grande responsividade.
       	</p>
       	<div className="social-media">
-      		<a href="https://github.com/Sutolix" title="Github"><TiSocialGithubCircular size={50} /></a>
-      		<a href="https://www.linkedin.com/in/tiago-reis-y/" title="LinkedIn"><TiSocialLinkedinCircular size={50} /></a>
+      		<a href="https://github.com/Sutolix" target="_blank" rel="noopener noreferrer" title="Github"><TiSocialGithubCircular size={50} /></a>
+      		<a href="https://www.linkedin.com/in/tiago-reis-y/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><TiSocialLinkedinCircular size={50} /></a>
       	</div>
     	</div>
 

@@ -23,3 +23,12 @@ select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !impo
 .select-color {
     color: #037fff;
 }
+
+.d-flex {
+  display: flex !important;
+}
+
+.dinamic-space {
+	display: flex;
+	justify-content: space-between;
+}
