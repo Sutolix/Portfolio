@@ -1,0 +1,67 @@
+.resumo {
+	  position: relative;
+    margin-left: 22vw;
+    width: 80%;
+    display: flex;
+}
+
+.historic {
+	font-size: 1.4em;
+	border-left: 3px solid #2e344e;
+}
+
+.steps {
+	position: relative;
+	padding: 12px 0;
+}
+
+.subtitle {
+	font-size: 1.8em;
+	margin: 30px 0;
+}
+
+.subtitle svg{
+	margin-right: 5px
+}
+
+.sumary {
+	min-width: 130px;
+	padding-left: 15px;
+}
+
+.sumary::before{
+	content: "";
+  position: absolute;
+  left: -10px;
+  top: 17px;
+  height: 11px;
+  width: 11px;
+  border-radius: 100px;
+  background: #10121b;
+  border: 3px solid #2e344e;
+}
+
+.details{
+	position: relative;
+  padding-left: 40px;
+}
+
+.details h6{
+	font-weight: 500;
+	margin: 7px 0;
+}
+
+.details p{
+	color: #a4acc4;
+	font-size: 0.8em;
+}
+
+.details::before {
+	content: "";
+  position: absolute;
+	left: 7px;
+  top: 14px;
+  height: 1px;
+  width: 25px;
+  background: #a4acc4;
+}

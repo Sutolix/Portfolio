@@ -15,10 +15,10 @@ body, input, button {
   -webkit-font-smoothing: antialiased !important;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  line-height: 1.8rem;
 }
 
 select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !important; }
-
 
 .select-color {
     color: #037fff;
@@ -31,4 +31,37 @@ select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !impo
 .dinamic-space {
 	display: flex;
 	justify-content: space-between;
+}
+
+.content {
+  z-index: 1;
+  color: #fff;
+  width: 100%;
+  margin: 0 5%;
+}
+
+.page {
+  position: relative;
+  margin-left: 22vw;
+  width: 80%;
+  display: flex;
+}
+
+.title {
+  margin-top: 5%;
+}
+
+ .title span{
+  font-size: 2em;
+  font-weight: 700;
+}
+
+ .layer {
+  font-size: 1.5em;
+}
+
+ .layer span{
+  font-size: 2em;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.1);
 }

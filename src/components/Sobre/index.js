@@ -1,24 +1,17 @@
 import React from 'react'
 import './sobre.css'
 
-import { IoIosColorPalette } from 'react-icons/io';
-import { FaReact } from 'react-icons/fa';
-import { DiPhotoshop } from 'react-icons/di';
+import { IoIosColorPalette } from 'react-icons/io'
+import { FaReact } from 'react-icons/fa'
+import { DiPhotoshop } from 'react-icons/di'
 
+import Background from '../Background'
 
 export default function Sobre () {
 
   return (
-  	<div className="sobre">
-  		<div className="background">
-  			<div className="animation">
-  				<div className="lines">
-  			<div className="line"></div>
-  			<div className="line"></div>
-  			<div className="line"></div>
-					</div>
-				</div>
-			</div>
+  	<div className="page">
+  		<Background/>
 
 			<div className="content">
 
