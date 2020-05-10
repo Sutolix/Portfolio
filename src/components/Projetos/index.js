@@ -33,30 +33,7 @@ export default function Projetos () {
         		</a>
         		<div className="projct-details">
         			<h5>KodFinder</h5>
-        			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur
-        			consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero.
-        			Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
-        		</div>
-        	</div>
-
-        	<div className="project d-flex">
-        		<a href="https://weatherappimap.netlify.app/" target="_blank" rel="noopener noreferrer">
-        		<img src={weather} alt="kodfinder bird" />
-        		</a>
-        		<div className="projct-details">
-        			<h5>Weather App</h5>
-        			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur
-        			consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero.
-        			Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
-        		</div>
-        	</div>
-
-        	<div className="project d-flex">
-        		<a href="https://reposearch.netlify.app/" target="_blank" rel="noopener noreferrer">
-        			<img src={repo} alt="kodfinder bird" />
-        		</a>
-        		<div className="projct-details">
-        			<h5>RepoSearch</h5>
+        			<div className="division"></div>
         			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur
         			consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero.
         			Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
@@ -69,6 +46,33 @@ export default function Projetos () {
         		</a>
         		<div className="projct-details">
         			<h5>FaleMais</h5>
+        			<div className="division"></div>
+        			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur
+        			consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero.
+        			Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
+        		</div>
+        	</div>
+
+        	<div className="project d-flex">
+        		<a href="https://reposearch.netlify.app/" target="_blank" rel="noopener noreferrer">
+        			<img src={repo} alt="kodfinder bird" />
+        		</a>
+        		<div className="projct-details">
+        			<h5>RepoSearch</h5>
+        			<div className="division"></div>
+        			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur
+        			consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero.
+        			Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
+        		</div>
+        	</div>
+
+        	<div className="project d-flex">
+        		<a href="https://weatherappimap.netlify.app/" target="_blank" rel="noopener noreferrer">
+        		<img src={weather} alt="kodfinder bird" />
+        		</a>
+        		<div className="projct-details">
+        			<h5>Weather App</h5>
+        			<div className="division"></div>
         			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur
         			consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero.
         			Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
@@ -81,6 +85,7 @@ export default function Projetos () {
         		</a>
         		<div className="projct-details">
         			<h5>Calculator</h5>
+        			<div className="division"></div>
         			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur
         			consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero.
         			Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>

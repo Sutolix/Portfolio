@@ -7,8 +7,10 @@
 	align-items: center;
 	justify-content: center;
 	margin-top: 50px;
+	padding: 5px;
 	cursor: pointer;
-	border-bottom: 4px solid #ccc;
+	border-top: 4px solid #ccc;
+	background: #000;
 }
 
 .project:last-child{
@@ -27,7 +29,7 @@
 }
 
 .project img{
-	width: 150px;
+	width: 100px;
 	height: auto;
 }
 

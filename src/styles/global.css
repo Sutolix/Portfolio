@@ -51,17 +51,25 @@ select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !impo
   margin-top: 5%;
 }
 
- .title span{
+.title span{
   font-size: 2em;
   font-weight: 700;
 }
 
- .layer {
+.layer {
   font-size: 1.5em;
 }
 
- .layer span{
+.layer span{
   font-size: 2em;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.1);
 }
+
+.division{
+ width: 50px;
+  height: 2px;
+  background: #ccc;
+  margin: 7px 0;
+}
+
