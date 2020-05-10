@@ -70,7 +70,7 @@ export default function Resumo () {
 				</div>
 
   			<div className="subtitle">
-  				<h5 className="d-flex"><MdSchool size={30} color="#fff"/>Educational Qualifications</h5>
+  				<h5 className="d-flex"><MdSchool size={30} color="#fff"/>Estudos</h5>
   			</div>
 
   			<div className="historic">

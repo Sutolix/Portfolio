@@ -20,7 +20,9 @@
 
 .services .s-items {
   margin: 5% 0;
+  max-width: 1500px;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .services .s-items .s-item{
@@ -29,6 +31,7 @@
   background: #000;
   border-top: 4px solid #ccc;
   padding: 10px;
+  margin-top: 20px;
 }
 
 .services .s-items .s-item .item-icon{
@@ -43,3 +46,29 @@
 .services .s-items .s-item .item-description{
   color: rgba(255, 255, 255, 0.7);
 }
+
+@media screen and (max-width: 680px) {
+    .about .description .info{
+      display: none;
+    }
+
+    .services .s-items .s-item{
+      width: 100%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .services .s-items .s-item{
+      width: 23em;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+  .about .description .description-title h2{
+    font-size: 1.1em;
+  }
+
+}
+
+

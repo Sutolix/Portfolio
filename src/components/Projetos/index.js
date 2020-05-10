@@ -28,7 +28,7 @@ export default function Projetos () {
         <div className="projects">
 
         	<div className="project d-flex">
-        		<a href="https://kodfinder.netlify.app" target="_blank" rel="noopener noreferrer" title="Ver online">
+        		<a href="https://kodfinder.netlify.app" target="_blank" rel="noopener noreferrer" title="Ver online" className="siteonline">
         			<img src={kodlogo} alt="kodfinder bird" />
         		</a>
         		<div className="project-details">
@@ -47,7 +47,7 @@ export default function Projetos () {
         	</div>
 
         	<div className="project d-flex">
-        		<a href="https://planosfalemais.netlify.com/" target="_blank" rel="noopener noreferrer" title="Ver online">
+        		<a href="https://planosfalemais.netlify.com/" target="_blank" rel="noopener noreferrer" title="Ver online" className="siteonline">
         			<img src={fale} alt="kodfinder bird" />
         		</a>
         		<div className="project-details">
@@ -66,7 +66,7 @@ export default function Projetos () {
         	</div>
 
         	<div className="project d-flex">
-        		<a href="https://reposearch.netlify.app/" target="_blank" rel="noopener noreferrer" title="Ver online">
+        		<a href="https://reposearch.netlify.app/" target="_blank" rel="noopener noreferrer" title="Ver online" className="siteonline">
         			<img src={repo} alt="kodfinder bird" />
         		</a>
         		<div className="project-details">
@@ -85,7 +85,7 @@ export default function Projetos () {
         	</div>
 
         	<div className="project d-flex">
-        		<a href="https://weatherappimap.netlify.app/" target="_blank" rel="noopener noreferrer" title="Ver online">
+        		<a href="https://weatherappimap.netlify.app/" target="_blank" rel="noopener noreferrer" title="Ver online" className="siteonline">
         		<img src={weather} alt="kodfinder bird" />
         		</a>
         		<div className="project-details">
@@ -104,7 +104,7 @@ export default function Projetos () {
         	</div>
 
         	<div className="project d-flex">
-        		<a href="https://sutolix.github.io/calculator/" target="_blank" rel="noopener noreferrer" title="Ver online">
+        		<a href="https://sutolix.github.io/calculator/" target="_blank" rel="noopener noreferrer" title="Ver online" className="siteonline">
         			<img src={calcultor} alt="kodfinder bird" />
         		</a>
         		<div className="project-details">

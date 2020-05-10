@@ -79,9 +79,39 @@ select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !impo
 }
 
 .division{
- width: 50px;
+  width: 50px;
   height: 2px;
   background: #ccc;
   margin: 7px 0;
 }
 
+/*RESPONSIVO*/
+
+@media screen and (max-width: 1300px) {
+    .page{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .lines{
+      width: 100vw;
+      margin: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .layer{
+      display: none;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .content{
+      margin: 0 auto;
+      padding: 5%;
+    }
+
+    .title span{
+      font-size: 1.8em;
+    }
+}

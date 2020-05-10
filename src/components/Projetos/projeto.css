@@ -8,6 +8,7 @@
 	justify-content: center;
 	margin-top: 50px;
 	padding: 5px;
+	padding-bottom: 7px;
 	cursor: pointer;
 	border-top: 4px solid #ccc;
 	background: #000;
@@ -58,4 +59,11 @@
 
 .project button:hover{
 	filter: brightness(0.7);
+}
+
+
+@media screen and (max-width: 900px) {
+	.project .siteonline{
+		display: none;
+	}
 }
