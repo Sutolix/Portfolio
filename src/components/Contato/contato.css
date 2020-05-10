@@ -1,0 +1,26 @@
+.type {
+	width: 500px;
+	height: 150px; 
+	background: #191d2b;
+	color: #a4acc4;
+	margin-top: 30px;
+}
+
+.type:last-child{
+	margin-bottom: 30px;
+}
+
+.type .contact-icon{
+	width: 80px;
+  height: 80px;
+  margin: 0 40px;
+	border: 1px solid #a4acc4;
+}
+
+.type h5{
+	font-size: 1.2em;
+}
+
+.type span{
+	font-size: 0.9em;
+}

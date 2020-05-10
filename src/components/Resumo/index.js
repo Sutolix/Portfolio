@@ -42,10 +42,10 @@ export default function Resumo () {
 
   		  <div className="abilities">
           <div className="title">
-            <span>Habilidades</span>
+            <span>HABILIDADES</span>
           </div>
           <div className="layer">
-            <span>Habilidades</span>
+            <span>HABILIDADES</span>
           </div>
           <div className="skills">
             {skills.map((skill) => (

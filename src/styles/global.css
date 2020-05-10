@@ -28,6 +28,18 @@ select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !impo
   display: flex !important;
 }
 
+.justify-around{
+  justify-content: space-around !important;
+}
+
+.justify-center{
+  justify-content: center !important;
+}
+
+.align-center{
+  align-items: center !important;
+}
+
 .dinamic-space {
 	display: flex;
 	justify-content: space-between;
