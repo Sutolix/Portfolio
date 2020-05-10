@@ -2,10 +2,37 @@ import React from 'react'
 import './resume.css'
 
 import { MdSchool } from 'react-icons/md'
-
 import Background from '../Background'
+import Loading from '../Loading'
 
 export default function Resumo () {
+
+  const skills = [
+  {
+    name: 'HTML5',
+    proficiency: '90'
+  },
+  {
+    name: 'CSS3',
+    proficiency: '87'
+  },
+  {
+    name: 'ReactJs',
+    proficiency: '70'
+  },
+  {
+    name: 'Bootstrap',
+    proficiency: '67'
+  },
+  {
+    name: 'Photoshop',
+    proficiency: '65'
+  },
+  {
+    name: 'Git',
+    proficiency: '60'
+  },
+  ]
 
   return (
   	<div className="page">
@@ -13,8 +40,24 @@ export default function Resumo () {
 
   		<div className="content">
 
-  		  <div className="skills">
-
+  		  <div className="abilities">
+          <div className="title">
+            <span>Habilidades</span>
+          </div>
+          <div className="layer">
+            <span>Habilidades</span>
+          </div>
+          <div className="skills">
+            {skills.map((skill) => (
+              <div className="skill" key={skill.name}>
+                <h5>{skill.name}</h5>
+                <div className="skill-graphic d-flex">
+                  <span>{skill.proficiency}%</span>
+                  <Loading proficiency={skill.proficiency} />
+                </div>
+              </div>
+            ))}
+          </div>
   		  </div>
 
   		  <div className="experience">
@@ -25,6 +68,7 @@ export default function Resumo () {
   			<div className="layer">
 					<span>RESUMO</span>
 				</div>
+
   			<div className="subtitle">
   				<h5 className="d-flex"><MdSchool size={30} color="#fff"/>Educational Qualifications</h5>
   			</div>

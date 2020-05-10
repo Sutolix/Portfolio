@@ -1,6 +1,5 @@
 import React from 'react'
 import './sobre.css'
-
 import { IoIosColorPalette } from 'react-icons/io'
 import { FaReact } from 'react-icons/fa'
 import { DiPhotoshop } from 'react-icons/di'

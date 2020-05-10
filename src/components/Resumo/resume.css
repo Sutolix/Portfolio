@@ -5,6 +5,36 @@
     display: flex;
 }
 
+.abilities .skills {
+	display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+}
+
+.skill .skill-graphic{
+	align-items: center;
+}
+
+.skill .skill-graphic span{
+	margin-right: 15px;
+}
+
+/*.skill .bar{
+	width: 300px;
+  height: 4px;
+  background: #ccc;
+  
+}*/
+
+/*.skill .bar::before{
+	content: '';
+	position: absolute;
+	height: 4px;
+	background: #037fff;
+	animation: loading 1s linear 1;
+	animation-fill-mode : forwards;
+}*/
+
 .historic {
 	font-size: 1.4em;
 	border-left: 3px solid #2e344e;
@@ -65,3 +95,12 @@
   width: 25px;
   background: #a4acc4;
 }
+
+/*@keyframes loading {
+ 0% {
+  width: 0;
+ }
+ 100% {
+  width: 300px;
+ }
+}*/

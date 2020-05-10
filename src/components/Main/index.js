@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 // import { Link } from 'react-router-dom'
 
 import './main.css'
@@ -10,6 +10,8 @@ import Projetos from '../Projetos'
 import Resumo from '../Resumo'
 import Sobre from '../Sobre'
 
+
+import ScrollToTop from '../../ScrollToTop.js'
 const menu = [
   {
     label: 'Home',
@@ -37,13 +39,9 @@ export default function Main () {
 
   const [select, setSelect] = useState("Home");
 
-  useEffect(() => {
-    console.log(select)
-  }, [select]);
-
-
   return (
     <div className="container">
+    <ScrollToTop select={select} />
       <div className="menu">
         <div className="avatar">
           <img src={avatar} alt="Profile"/>
