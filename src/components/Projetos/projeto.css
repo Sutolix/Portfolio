@@ -1,0 +1,43 @@
+.projects {
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.project {
+	min-width: 270px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	cursor: pointer;
+	border-bottom: 4px solid #ccc;
+	text-align: center;
+}
+
+.project:last-child{
+	margin-bottom: 30px;
+}
+
+.project:hover {
+	border-color: #037fff;
+
+}
+
+.project a{
+	text-decoration: none;
+	margin-right: 10px;
+	color: #fff;
+}
+
+.project img{
+	width: 150px;
+	height: auto;
+}
+
+.project h5{
+	font-size: 18px;
+}
+
+.project p{
+	font-size: 14px;
+	color: #a4acc4;
+}
