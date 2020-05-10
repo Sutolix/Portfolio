@@ -1,16 +1,14 @@
 .projects {
 	max-width: 850px;
-	margin: 0 auto;
 }
 
 .project {
 	min-width: 270px;
 	align-items: center;
 	justify-content: center;
-	margin-top: 30px;
+	margin-top: 50px;
 	cursor: pointer;
 	border-bottom: 4px solid #ccc;
-	text-align: center;
 }
 
 .project:last-child{
