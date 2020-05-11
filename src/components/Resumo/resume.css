@@ -1,8 +1,8 @@
 .resumo {
-	  position: relative;
-    margin-left: 22vw;
-    width: 80%;
-    display: flex;
+	position: relative;
+  margin-left: 22vw;
+  width: 80%;
+  display: flex;
 }
 
 .abilities .skills {
@@ -25,6 +25,7 @@
 }
 
 .steps {
+	display: flex;
 	position: relative;
 	padding: 12px 0;
 }
@@ -87,12 +88,27 @@
 		grid-template-columns: 1fr;
 	}
 
-	.historic {
-	border-left: 0;
+	.historic{
+		border-left: 0;
 	}
 
-	.sumary{
+	.steps {
+		display: block;
+		margin-bottom: 25px;
+	}
+
+	.sumary {
+		padding-left: 0;
+		margin-bottom: -50px;
+		font-size: 19px;
+	}
+
+	.sumary::before{
 		display: none;
+	}
+
+	.sumary h6{
+		font-weight: 500;
 	}
 
 	.subtitle{
@@ -107,13 +123,17 @@
 	.details::before {
 		display: none;
 	}
+
+	.details h6{
+		margin-top: 14px;
+	}
 }
 
 /*RESPONSIVO*/
 
 @media screen and (max-width: 1000px) {
 	.historic:last-child{
-		margin-bottom: 20px;
+		margin-bottom: 50px;
 	}
 }
 

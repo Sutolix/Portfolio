@@ -124,7 +124,7 @@ export default function Resumo () {
 
         {courses.map((course) => (
 
-          <div className="steps d-flex" key={course.name}>
+          <div className="steps" key={course.name}>
             <div className="sumary">
               <h6>{course.data}</h6>
             </div>

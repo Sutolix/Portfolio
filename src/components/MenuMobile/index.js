@@ -9,11 +9,8 @@ import Projetos from '../Projetos'
 import Resumo from '../Resumo'
 import Sobre from '../Sobre'
 
-import { BsPersonSquare, BsPencilSquare } from 'react-icons/bs'
 import { AiFillHome } from 'react-icons/ai'
-import { RiContactsBookLine } from 'react-icons/ri'
-import { BsClipboardData } from 'react-icons/bs'
-
+import { BsPersonSquare, BsPencilSquare, BsClipboardData, BsTablet } from 'react-icons/bs'
 
 export default function MenuMobile () {
 
@@ -90,7 +87,7 @@ export default function MenuMobile () {
                 value="Contato"
                 onClick={ e => setMobselect(e.target.value) }
               />
-              <label htmlFor="m-Contato"><RiContactsBookLine /></label>
+              <label htmlFor="m-Contato"><BsTablet /></label>
             </div>
         </nav>
 

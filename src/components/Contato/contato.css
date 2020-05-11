@@ -16,6 +16,12 @@
   height: 80px;
   margin: 0 40px;
 	border: 1px solid #a4acc4;
+	cursor: pointer;
+}
+
+.type .contact-icon:hover{
+	border-color: #037fff;
+	filter: brightness(0.8);
 }
 
 .type h5{

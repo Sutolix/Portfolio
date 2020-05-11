@@ -52,19 +52,23 @@
 }
 
 @media screen and (max-width: 680px) {
-    .about .description .info{
+  .about .description .info{
       display: none;
-    }
+  }
 
-    .services .s-items .s-item{
+  .services .s-items .s-item{
       width: 100%;
-    }
+  }
+
+  .services .s-items .s-item:last-child{
+    margin-bottom: 50px;
+  }
 }
 
 @media screen and (min-width: 1900px) {
-    .services .s-items .s-item{
+  .services .s-items .s-item{
       width: 23em;
-    }
+  }
 }
 
 @media screen and (max-width: 400px) {
