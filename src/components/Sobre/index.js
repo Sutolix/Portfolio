@@ -28,7 +28,7 @@ export default function Sobre () {
 						<h2>Meu nome é <span className="select-color">Tiago Reis</span></h2>
 					</div>
 
-					<p className="description-text">Sou um desenvolvedor frontend com alguns projetos próprios e estudante afinco de 
+					<p className="description-text">Sou um desenvolvedor front-end com alguns projetos próprios e estudante afinco de 
 					ReactJS. 
 					</p>
 
@@ -37,7 +37,7 @@ export default function Sobre () {
 							<p>Nome completo</p>
 							<p>Idade</p>
 							<p>Nacionalidade</p>
-							<p>Linguas</p>
+							<p>Línguas</p>
 							<p>Freelancer</p>
 						</div>
 						
@@ -87,7 +87,7 @@ export default function Sobre () {
 						</div>
 						<div className="division"></div>
 						<div className="item-description">
-							<p>Aplicações em SPA para uma navegação mais fĺuida sem loading.</p>
+							<p>Aplicações em SPA para uma navegação mais fluida sem loading.</p>
 						</div>
 					</div>
 					<div className="s-item">

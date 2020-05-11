@@ -8,7 +8,7 @@ export default function Home () {
   	<div className="home">
    		<div className="context">
       	<h1>Olá, sou o <span className="select-color">Tiago Reis</span></h1>
-      	<p>Um desenvolvedor web focado no frontend. Faço layouts limpos e de fácil usabilidade.<br/>
+      	<p>Um desenvolvedor web focado no front-end. Faço layouts limpos e de fácil usabilidade.<br/>
       	Além de websites com boa ambientação e de grande responsividade.
       	</p>
       	<div className="social-media">
