@@ -172,6 +172,7 @@
 @media screen and (max-width: 900px) {
     .home .context{
         width: 80%;
+        margin-bottom: 80px;
     }
 
     .home .context h1{
