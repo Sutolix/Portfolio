@@ -46,21 +46,6 @@
 	float: right;
 }
 
-.project button{
-	background: #037fff;
-	color: #fff;
-	font-weight: 600;
-	border: none;
-	border-radius: 3px;
-	padding: 0 5px;
-	cursor: pointer;
-}
-
-.project button:hover{
-	filter: brightness(0.7);
-}
-
-
 @media screen and (max-width: 900px) {
 	.project .siteonline{
 		display: none;

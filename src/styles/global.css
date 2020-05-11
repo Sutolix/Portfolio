@@ -55,7 +55,7 @@ select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !impo
 .page {
   position: relative;
   margin-left: 20vw;
-  width: 80%;
+  width: 79%;
   display: flex;
 }
 
@@ -83,6 +83,20 @@ select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !impo
   height: 2px;
   background: #ccc;
   margin: 7px 0;
+}
+
+.btn-default{
+  background: #037fff;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.btn-default:hover{
+  filter: brightness(0.7);
 }
 
 /*RESPONSIVO*/

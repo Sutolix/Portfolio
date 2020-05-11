@@ -79,12 +79,13 @@ export default function Resumo () {
   						<h6> 2020 - Present</h6>
   					</div>
   					<div className="details">
-  						<h5 className="select-color"> CS50X </h5>
-  						<h6>Harvard University</h6>
-  						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-  						Quas, magni mollitia, aspernatur consequatur accusamus vero
-  						eum facere exercitationem velit suscipit ipsam placeat libero.
-  						Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
+  						<h5 className="select-color"> CS50 </h5>
+  						<h6>Harvard University (Online)</h6>
+  						<p>CS50 é uma introdução à Ciência da Computação abordando linguagens de programação como
+                C e Python além de estruturas de dados e SQL. O curso é um dos mais populares de Harvard
+                sendo executado com uma equipe de profissionais em conjunto ao renomado professor David J.
+                Malan. Tem aulas presenciais mas que são gravadas e disponibilizadas oficialmente em formato
+                de curso online com todo suporte e certificações. </p>
   					</div>
   				</div>
 
@@ -94,11 +95,12 @@ export default function Resumo () {
             </div>
             <div className="details">
               <h5 className="select-color"> JavaScript </h5>
-              <h6>Udemy</h6>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Quas, magni mollitia, aspernatur consequatur accusamus vero
-              eum facere exercitationem velit suscipit ipsam placeat libero.
-              Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
+              <h6>Udemy (Online)</h6>
+              <p>Curso ministrado pela HCODE e com vários projetos reais como clones do WhatsApp e Dropbox usando
+                Firebase e o que há de mais moderno no JavaScript. São mais de 200 aulas indo do básico ao avançado
+                somando cerca de 38 horas de videoaulas. Express, Socket IO, Chart JS, NodeJS são algumas das
+                tecnologias usadas durante o curso.
+              </p>
             </div>
           </div>
 
@@ -108,11 +110,12 @@ export default function Resumo () {
             </div>
             <div className="details">
               <h5 className="select-color"> ReactJs </h5>
-              <h6>Udemy</h6>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Quas, magni mollitia, aspernatur consequatur accusamus vero
-              eum facere exercitationem velit suscipit ipsam placeat libero.
-              Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
+              <h6>Udemy (Online)</h6>
+              <p>Este curso visa ensinar desde o básico ao avançado do ReactJs. Conta com alguns projetos como blog,
+                videolocadora, buscador de repositório entre outros. É introduzido o uso de classes mas apresenta os novos
+                recursos de Hooks mostrando sua maior simplicidade. É apresentado ao aluno o Firebase com seu banco de dados
+                em tempo real e como isso deixa uma aplicação mais dinâmica.
+              </p>
             </div>
           </div>
 
@@ -121,12 +124,11 @@ export default function Resumo () {
               <h6> 2019 - 2019</h6>
             </div>
             <div className="details">
-              <h5 className="select-color"> HTML, CSS, Bootstrap </h5>
-              <h6>Udemy</h6>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Quas, magni mollitia, aspernatur consequatur accusamus vero
-              eum facere exercitationem velit suscipit ipsam placeat libero.
-              Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
+              <h5 className="select-color"> HTML5, CSS3, Bootstrap 4</h5>
+              <h6>Udemy (Online)</h6>
+              <p>Curso completo de desenvolvimento web com criação de um site funcional e responsivo com loja e carrinho de compras.
+                São mais de 75 aulas computando cerca de 13 horas de videoaulas. Angular, PHP com Slim Framework e MySQL também
+                estão presentes.</p>
             </div>
           </div>
 
@@ -136,11 +138,10 @@ export default function Resumo () {
             </div>
             <div className="details">
               <h5 className="select-color"> Técnico em Informática </h5>
-              <h6>Polivalente (Ponte Nova)</h6>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Quas, magni mollitia, aspernatur consequatur accusamus vero
-              eum facere exercitationem velit suscipit ipsam placeat libero.
-              Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
+              <h6>Polivalente (Ponte Nova-MG)</h6>
+              <p>Curso presencial com matérias como Empreendedorismo, Análise e Projeto de Sistemas, Redes, Manutenção de Computadores,
+              Banco de Dados, Linguagem Orientada a Objetos e Programação da Internet. No fim houveram trabalhos de conclusão de curso
+              englobando todos os conhecimentos adiquiridos durante o período.</p>
             </div>
           </div>
 

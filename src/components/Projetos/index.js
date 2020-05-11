@@ -34,15 +34,15 @@ export default function Projetos () {
         		<div className="project-details">
         			<h5>KodFinder</h5>
         			<div className="division"></div>
-        			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur
-        			consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero.
-        			Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
+        			<p>Um site para reunir programadores da minha região (Ponte Nova -MG). Infelizmente a cultura dev
+                        que temos por aqui é muito fraca, então a proposta desse projeto é criar um lugar para nos conhecermos
+                        melhorando nosso networking tal qual fortalecer a presença de nossa profissão.</p>
                     <a
                         href="https://github.com/Sutolix/KodFinder"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button>Acessar repositório</button></a>
+                        <button className="btn-default">Acessar repositório</button></a>
         		</div>
         	</div>
 
@@ -53,15 +53,14 @@ export default function Projetos () {
         		<div className="project-details">
         			<h5>FaleMais</h5>
         			<div className="division"></div>
-        			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur
-        			consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero.
-        			Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
+        			<p>Um sistema que calcula os preços de pagamento de um usuário com e sem a adesão de uma promoção de uma
+                        operadora telefônica.</p>
                     <a
                         href="https://github.com/Sutolix/fale_mais"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button>Acessar repositório</button></a>
+                        <button className="btn-default">Acessar repositório</button></a>
                 </div>
         	</div>
 
@@ -72,15 +71,14 @@ export default function Projetos () {
         		<div className="project-details">
         			<h5>RepoSearch</h5>
         			<div className="division"></div>
-        			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur
-        			consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero.
-        			Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
+        			<p>Digite o caminho de um repositório do Github e receba informações sobre. Você verá descrição, linguagem utilizada e issues abertas e fechadas. <br/>
+                    Exemplo de pesquisa: facebook/react</p>
                     <a
                         href="https://github.com/Sutolix/repo_search"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button>Acessar repositório</button></a>
+                        <button className="btn-default">Acessar repositório</button></a>
                 </div>
         	</div>
 
@@ -91,15 +89,14 @@ export default function Projetos () {
         		<div className="project-details">
         			<h5>Weather App</h5>
         			<div className="division"></div>
-        			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur
-        			consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero.
-        			Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
+        			<p>Veja o clima em diversas cidades do mundo. Digite o nome da cidade que deseja se informar sobre o clima na
+                        barra de pesquisa e veja informações de temperatura, mínima, máxima e umidade.</p>
                     <a
                         href="https://github.com/Sutolix/weather_app"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button>Acessar repositório</button></a>
+                        <button className="btn-default">Acessar repositório</button></a>
                 </div>
         	</div>
 
@@ -110,15 +107,13 @@ export default function Projetos () {
         		<div className="project-details">
         			<h5>Calculator</h5>
         			<div className="division"></div>
-        			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur
-        			consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero.
-        			Deleniti exercitationem nostrum quasi. Molestiae, vel porro.</p>
+        			<p>Uma calculadora feita em JavaScript durante um curso da HCODE. Dê dois clicks na tecla AC para ativar o som das teclas, outros dois clicks desativa.</p>
                     <a
                         href="https://github.com/Sutolix/calculator"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <button>Acessar repositório</button></a>
+                        <button className="btn-default">Acessar repositório</button></a>
                 </div>
         	</div>
 

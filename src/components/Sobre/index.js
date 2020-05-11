@@ -28,8 +28,8 @@ export default function Sobre () {
 						<h2>Meu nome é <span className="select-color">Tiago Reis</span></h2>
 					</div>
 
-					<p className="description-text">I am a frontend web developer. I can provide clean code and pixel perfect
-					design. I also make website more & more interactive with web animations.
+					<p className="description-text">Sou um desenvolvedor frontend com alguns projetos próprios e estudante afinco de 
+					ReactJS. 
 					</p>
 
 					<div className="info dinamic-space">
@@ -50,6 +50,13 @@ export default function Sobre () {
 						</div>
 
 					</div>
+
+					<a
+						href="https://firebasestorage.googleapis.com/v0/b/portfolio-73930.appspot.com/o/cv%2Fcurriculo.pdf?alt=media&token=878eef9e-ad9b-4731-bdf8-36f181312af2"
+						target="_blank"
+						rel="noopener noreferrer">
+						<button className="btn-default">Baixar currículo</button>	
+					</a>
 				</div>
 				</div>
 
@@ -70,8 +77,7 @@ export default function Sobre () {
 						</div>
 						<div className="division"></div>
 						<div className="item-description">
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Autem tenetur ratione quod.</p>
+							<p>Criação de layouts intuitivos para sites e apps.</p>
 						</div>
 					</div>
 					<div className="s-item">
@@ -81,8 +87,7 @@ export default function Sobre () {
 						</div>
 						<div className="division"></div>
 						<div className="item-description">
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Autem tenetur ratione quod.</p>
+							<p>Aplicações em SPA para uma navegação mais fĺuida sem loading.</p>
 						</div>
 					</div>
 					<div className="s-item">
@@ -92,8 +97,7 @@ export default function Sobre () {
 						</div>
 						<div className="division"></div>
 						<div className="item-description">
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Autem tenetur ratione quod.</p>
+							<p>Remoção de objetos indesejados em imagens e fotos.</p>
 						</div>
 					</div>
 				</div>

@@ -18,6 +18,10 @@
   max-width: 370px;
 }
 
+.about .description a button {
+  margin-top: 5px;
+}
+
 .services .s-items {
   margin: 5% 0;
   max-width: 1500px;
