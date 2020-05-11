@@ -10,26 +10,22 @@ import Projetos from '../Projetos'
 import Resumo from '../Resumo'
 import Sobre from '../Sobre'
 
+
 const menu = [
   {
-    label: 'Home',
-    path: '/'
+    label: 'Home'
   },
   {
-    label: 'Sobre',
-    path: '/about'
+    label: 'Sobre'
   },
   {
-    label: 'Resumo',
-    path: '/resume'
+    label: 'Resumo'
   },
   {
-    label: 'Projetos',
-    path: '/portfolio'
+    label: 'Projetos'
   },
   {
-    label: 'Contato',
-    path: '/contact'
+    label: 'Contato'
   },
 ]
 
@@ -42,7 +38,7 @@ export default function MenuWeb () {
 		<ScrollToTop select={select} />
       <div className="menu">
         <div className="avatar">
-          <img src={avatar} alt="Profile"/>
+          <img src={avatar} alt="Profile" title="A Web Developer"/>
         </div>
         <div className="line"></div>
         <nav>
@@ -66,6 +62,8 @@ export default function MenuWeb () {
       </div>
     </div>
 
+    <div className="web">
+
     {
       (select === "Contato") ? (<Contato />) :
       (select === "Resumo") ? (<Resumo />) :
@@ -73,6 +71,8 @@ export default function MenuWeb () {
       (select === "Sobre") ? (<Sobre />) :
       (<Home />)
     }
+
+    </div>
     </>
   )
 }

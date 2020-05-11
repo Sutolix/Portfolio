@@ -60,7 +60,7 @@ select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !impo
 }
 
 .title {
-  margin-top: 5%;
+  margin-top: 20px;
 }
 
 .title span{
@@ -87,7 +87,7 @@ select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !impo
 
 /*RESPONSIVO*/
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
     .page{
         margin-left: 0;
         width: 100%;

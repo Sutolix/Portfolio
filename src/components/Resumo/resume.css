@@ -109,6 +109,14 @@
 	}
 }
 
+/*RESPONSIVO*/
+
+@media screen and (max-width: 1000px) {
+	.historic:last-child{
+		margin-bottom: 20px;
+	}
+}
+
 @media screen and (max-width: 380px) {
 
 	.skill .skill-graphic{

@@ -1,0 +1,50 @@
+.menumobile, .mobile{
+	display: none !important;
+}
+
+.menumobile{
+	width: 100vw;
+}
+
+.menumobile nav {
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  height: 40px;
+  background: #000;
+  bottom: -2px;
+	align-items: center;
+}
+
+.menumobile nav .mob-option {
+	position: relative;
+	padding: 8px 0;
+	z-index: 1;
+	list-style: none;
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+
+.menumobile nav .mob-option input {
+	display: none;
+}
+
+.menumobile nav .mob-option label {
+	cursor: pointer;
+	font-weight: 700;
+	color: #fff;
+}
+
+.menumobile nav .mob-option:hover::before { width: 100% }
+
+input[type=radio]:checked + label {
+	color: #037fff;
+}
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 1000px) {
+	.menumobile, .mobile{
+		display: block !important;
+	}
+}

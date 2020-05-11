@@ -1,3 +1,7 @@
+.web{
+	width: 100vw;
+}
+
 .menu {
 	position: fixed;
 	z-index: 3;
@@ -16,6 +20,7 @@
 	border: 2px solid #037fff;
 	border-radius: 50%;
 	margin: 20px 0;
+	cursor: pointer;
 }
 
 .menu .line{
@@ -78,8 +83,9 @@ input[type=radio]:checked + label {
 
 /*RESPONSIVO*/
 
-@media screen and (max-width: 1300px) {
-	.menu{
+@media screen and (max-width: 1000px) {
+	.menu, .web{
 		display: none;
 	}
+
 }

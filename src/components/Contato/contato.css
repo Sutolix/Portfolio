@@ -27,6 +27,14 @@
 }
 
 
+/*RESPONSIVO*/
+
+@media screen and (max-width: 1000px) {
+	.contact .contact-means:last-child{
+		margin-bottom: 20px;
+	}
+}
+
 @media screen and (max-width: 380px) {
 
 	.type{
