@@ -25,12 +25,12 @@ export default function Resumo () {
     proficiency: '67'
   },
   {
-    name: 'Photoshop',
-    proficiency: '65'
-  },
-  {
     name: 'Git',
     proficiency: '60'
+  },
+  {
+    name: 'Photoshop',
+    proficiency: '50'
   },
   ]
 
