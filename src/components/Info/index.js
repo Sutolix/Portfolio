@@ -75,7 +75,7 @@ export const courses = [
     {
       name: 'Técnico em Informática',
       data: '2017 - 2018',
-      local: 'Polivalente (Ponte Nova-MG',
+      local: 'Polivalente (Ponte Nova-MG)',
       description: `Curso presencial com matérias como Empreendedorismo, Análise e Projeto de Sistemas, Redes, Manutenção de
                    Computadores, Banco de Dados, Linguagem Orientada a Objetos e Programação da Internet. No fim houveram
                     trabalhos de conclusão de curso englobando todos os conhecimentos adquiridos durante o período.`
