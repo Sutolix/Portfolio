@@ -11,6 +11,10 @@
   row-gap: 10px;
 }
 
+.skill h5{
+	margin-left: 5px;
+}
+
 .skill .skill-graphic{
 	align-items: center;
 }
