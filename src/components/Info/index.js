@@ -97,7 +97,7 @@ export const works = [
       description: `Compra de produtos nacionais e importados. O cliente escolhe o que quer, faço pesquisas pelos
                     menores preços, verifico taxas, converso com o vendedor e efetuo a compra além de acompanhar
                     todo o trâmite do processo. Caso haja algum problema, como o produto chegar danificado ou ser extraviado,
-                    é minha responsibilidade tomar as ações cabíveis, o cliente não precisa se preocupar com nada nesse quesito.
+                    é minha responsabilidade tomar as ações cabíveis, o cliente não precisa se preocupar com nada nesse quesito.
                     É um serviço útil pois muitas pessoas não tem conhecimento ou mesmo tempo para realizar essas compras, principalmente
                     as internacionais que dependem de um pouco mais de atenção em relação a tamanhos, padrões de tomada, versões
                     de software e taxações.`
