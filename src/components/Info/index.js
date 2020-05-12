@@ -55,6 +55,16 @@ export const courses = [
                     banco de dados em tempo real e como isso deixa uma aplicação mais dinâmica.`
     },
     {
+      name: 'Semana OmniStack 10',
+      data: '2020 - 2020',
+      local: 'Rocketseat (Online)',
+      description: `Um intensivo de uma semana construindo uma aplicação completa (web e mobile) do zero. Back-end com NodeJs, 
+                    front-end com ReactJs e mobile com React Native. Usamos MongoDB como banco de dados e constuímos uma aplicação
+                    semelhante ao Tinder mas para desenvolvedores. Basicamente o usuário cadastra seu username do Github
+                    na aplicação web junto de suas coordenadas pegas automaticamente pelo navegador. No mobile, é apresentado um
+                    mapa onde os usuários em um certo raio de distância em relação a quem está acessando são exibidos.`
+    },
+    {
       name: 'HTML5, CSS3, Bootstrap 4',
       data: '2019 - 2019',
       local: 'Udemy (Online)',
@@ -77,7 +87,7 @@ export const works = [
       name: 'Professor de Informática',
       data: '2019 - Presente',
       local: 'Autônomo',
-      description: `Ensino de Informática básica com foco em ferramentas de escritório como World e Excel.
+      description: `Ensino de Informática básica com foco em ferramentas de escritório como Word e Excel.
                     Criação e formatação de provas e TCC.`
     },
     {
