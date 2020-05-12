@@ -81,9 +81,9 @@ export const works = [
                     Criação e formatação de provas e TCC.`
     },
     {
-      name: 'Assistente de Compras Online',
+      name: 'Assistente de Compras',
       data: '2017 - Presente',
-      local: 'Autônomo',
+      local: 'Autônomo (Online)',
       description: `Compra de produtos nacionais e importados. O cliente escolhe o que quer, faço pesquisas pelos
                     menores preços, verifico taxas, converso com o vendedor e efetuo a compra além de acompanhar
                     todo o trâmite do processo. Caso haja algum problema, como o produto chegar danificado ou ser extraviado,
@@ -92,4 +92,23 @@ export const works = [
                     as internacionais que dependem de um pouco mais de atenção em relação a tamanhos, padrões de tomada, versões
                     de software e taxações.`
     }
-  ]
+]
+
+export const services = [
+  {
+    title: 'Web Design',
+    description: 'Criação de layouts intuitivos para sites e apps.',
+  },
+  {
+    title: 'SPA com ReactJs',
+    description: 'Aplicações em SPA para uma navegação mais fluida sem loading.'
+  },
+  {
+    title: 'Importações',
+    description: 'Compra de produtos da China e EUA.'
+  },
+  {
+    title: 'Edições',
+    description: 'Remoção de objetos indesejados em imagens e fotos.'
+  }
+]

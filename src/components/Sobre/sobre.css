@@ -23,10 +23,11 @@
 }
 
 .services .s-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
   margin: 5% 0;
   max-width: 1500px;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 .services .s-items .s-item{
@@ -35,7 +36,7 @@
   background: #000;
   border-top: 4px solid #ccc;
   padding: 10px;
-  margin-bottom: 20px;
+  margin: 0 auto;
 }
 
 .services .s-items .s-item .item-icon{
@@ -83,4 +84,44 @@
 
 }
 
+/*Template Grid*/
+
+@media screen and (max-width: 539px) {
+
+  .services .s-items {
+      grid-template-columns: 1fr;
+      grid-gap: 20px 30px;
+  }
+
+  .services .s-items .s-item {
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (min-width: 540px) {
+
+  .services .s-items {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 40px;
+  }
+
+}
+
+@media screen and (min-width: 1260px) {
+
+  .services .s-items {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+@media screen and (min-width: 2160px) {
+
+  .services .s-items {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 0 40px;
+  }
+
+}
 

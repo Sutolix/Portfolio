@@ -1,8 +1,11 @@
 import React from 'react'
 import './sobre.css'
 import { IoIosColorPalette } from 'react-icons/io'
-import { FaReact } from 'react-icons/fa'
+import { FaReact, FaMoneyBillAlt } from 'react-icons/fa'
 import { DiPhotoshop } from 'react-icons/di'
+import { AiFillExclamationCircle } from 'react-icons/ai'
+
+import { services } from '../Info'
 
 import Background from '../Background'
 
@@ -69,37 +72,29 @@ export default function Sobre () {
 					<span>SERCIÇOS</span>
 				</div>
 
-				<div className="s-items d-flex">
-					<div className="s-item">
+				<div className="s-items">
+
+					{services.map((service) => (
+
+					<div className="s-item" key={service.title}>
 						<div className="item-icon d-flex">
-						<IoIosColorPalette size={50} color="#037fff" />
-						<span>Web Design</span>
+						{
+							(service.title === 'Web Design') ? (<IoIosColorPalette size={50} color="#037fff" />) :
+							(service.title === 'SPA com ReactJs') ? (<FaReact size={50} color="#037fff" />) :
+							(service.title === 'Importações') ? (<FaMoneyBillAlt size={50} color="#037fff" />) :
+							(service.title === 'Edições') ? (<DiPhotoshop size={50} color="#037fff" />) :
+							(<AiFillExclamationCircle size={50} color="#CD0000" />)
+						}
+						<span>{service.title}</span>
 						</div>
 						<div className="division"></div>
 						<div className="item-description">
-							<p>Criação de layouts intuitivos para sites e apps.</p>
+							<p>{service.description}</p>
 						</div>
 					</div>
-					<div className="s-item">
-						<div className="item-icon d-flex">
-						<FaReact size={50} color="#037fff" />
-						<span>ReactJs</span>
-						</div>
-						<div className="division"></div>
-						<div className="item-description">
-							<p>Aplicações em SPA para uma navegação mais fluida sem loading.</p>
-						</div>
-					</div>
-					<div className="s-item">
-						<div className="item-icon d-flex">
-						<DiPhotoshop size={50} color="#037fff" />
-						<span>Edições</span>
-						</div>
-						<div className="division"></div>
-						<div className="item-description">
-							<p>Remoção de objetos indesejados em imagens e fotos.</p>
-						</div>
-					</div>
+
+						))}
+
 				</div>
 				</div>
 
