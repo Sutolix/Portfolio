@@ -1,53 +1,52 @@
 .projects {
-	max-width: 850px;
+    max-width: 850px;
 }
 
 .project {
-	min-width: 270px;
-	align-items: center;
-	justify-content: center;
-	margin-top: 50px;
-	padding: 5px;
-	padding-bottom: 7px;
-	border-top: 4px solid #ccc;
-	background: #000;
+    min-width: 270px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 5px;
+    padding-bottom: 7px;
+    border-top: 4px solid #ccc;
+    background: #000;
 }
 
-.project:last-child{
-	margin-bottom: 80px;
+.project:last-child {
+    margin-bottom: 100px;
 }
 
 .project:hover {
-	border-color: #037fff;
-
+    border-color: #037fff;
 }
 
-.project a{
-	text-decoration: none;
-	margin-right: 10px;
-	color: #fff;
+.project a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #fff;
 }
 
-.project img{
-	width: 100px;
-	height: auto;
+.project img {
+    width: 100px;
+    height: auto;
 }
 
-.project h5{
-	font-size: 18px;
+.project h5 {
+    font-size: 18px;
 }
 
-.project p{
-	font-size: 14px;
-	color: #a4acc4;
+.project p {
+    font-size: 14px;
+    color: #a4acc4;
 }
 
-.project .project-details a{
-	float: right;
+.project .project-details a {
+    float: right;
 }
 
 @media screen and (max-width: 900px) {
-	.project .siteonline{
-		display: none;
-	}
+    .project .siteonline {
+        display: none;
+    }
 }

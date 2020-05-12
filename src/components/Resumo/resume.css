@@ -1,166 +1,156 @@
 .resumo {
-	position: relative;
-  margin-left: 22vw;
-  width: 80%;
-  display: flex;
+    position: relative;
+    margin-left: 22vw;
+    width: 80%;
+    display: flex;
 }
 
 .abilities .skills {
-	display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
 }
 
-.skill h5{
-	margin-left: 5px;
+.skill h5 {
+    margin-left: 5px;
 }
 
-.skill .skill-graphic{
-	align-items: center;
+.skill .skill-graphic {
+    align-items: center;
 }
 
-.skill .skill-graphic span{
-	margin-right: 15px;
+.skill .skill-graphic span {
+    margin-right: 15px;
 }
 
 .historic {
-	font-size: 1.4em;
-	border-left: 3px solid #2e344e;
+    font-size: 1.4em;
+    border-left: 3px solid #2e344e;
 }
 
 .steps {
-	display: flex;
-	position: relative;
-	padding: 12px 0;
+    display: flex;
+    position: relative;
+    padding: 12px 0;
 }
 
 .subtitle {
-	font-size: 1.8em;
-	margin: 30px 0;
+    font-size: 1.8em;
+    margin: 30px 0;
 }
 
-.subtitle svg{
-	margin-right: 5px
+.subtitle svg {
+    margin-right: 5px;
 }
 
 .sumary {
-	min-width: 140px;
-	padding-left: 15px;
+    min-width: 140px;
+    padding-left: 15px;
 }
 
-.sumary::before{
-	content: "";
-  position: absolute;
-  left: -10px;
-  top: 17px;
-  height: 11px;
-  width: 11px;
-  border-radius: 100px;
-  background: #10121b;
-  border: 3px solid #2e344e;
+.sumary::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 17px;
+    height: 11px;
+    width: 11px;
+    border-radius: 100px;
+    background: #10121b;
+    border: 3px solid #2e344e;
 }
 
-.details{
-	position: relative;
-  padding-left: 40px;
+.details {
+    position: relative;
+    padding-left: 40px;
 }
 
-.details h5{
-	font-size: 1.02em;
+.details h5 {
+    font-size: 1.02em;
 }
 
-.details h6{
-	font-weight: 500;
-	margin: 7px 0;
+.details h6 {
+    font-weight: 500;
+    margin: 7px 0;
 }
 
-.details p{
-	color: #a4acc4;
-	font-size: 0.8em;
-	font-weight: 500;
+.details p {
+    color: #a4acc4;
+    font-size: 0.8em;
+    font-weight: 500;
 }
 
 .details::before {
-	content: "";
-  position: absolute;
-	left: 7px;
-  top: 14px;
-  height: 1px;
-  width: 25px;
-  background: #a4acc4;
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 14px;
+    height: 1px;
+    width: 25px;
+    background: #a4acc4;
 }
+
 
 /*RESPONSIVO*/
 
 @media screen and (max-width: 350px) {
-	.details h5{
-		font-size: 0.7em;
-	}
-
-	.details p{
-		font-size: 0.6em;
-	}
+    .details h5 {
+        font-size: 0.7em;
+    }
+    .details p {
+        font-size: 0.6em;
+    }
 }
 
 @media screen and (max-width: 900px) {
-	.abilities .skills{
-		grid-template-columns: 1fr;
-	}
-
-	.historic{
-		border-left: 0;
-	}
-
-	.steps {
-		display: block;
-		margin-bottom: 25px;
-	}
-
-	.sumary {
-		padding-left: 0;
-		margin-bottom: -50px;
-		font-size: 19px;
-	}
-
-	.sumary::before{
-		display: none;
-	}
-
-	.sumary h6{
-		font-weight: 500;
-	}
-
-	.subtitle{
-		padding-bottom: 8px;
-		border-bottom: 1px solid #a4acc4;
-	}
-
-	.details{
-		padding-left: 0;
-	}
-
-	.details::before {
-		display: none;
-	}
-
-	.details h6{
-		margin-top: 14px;
-	}
+    .abilities .skills {
+        grid-template-columns: 1fr;
+    }
+    .historic {
+        border-left: 0;
+    }
+    .steps {
+        display: block;
+        margin-bottom: 25px;
+    }
+    .sumary {
+        padding-left: 0;
+        margin-bottom: -50px;
+        font-size: 19px;
+    }
+    .sumary::before {
+        display: none;
+    }
+    .sumary h6 {
+        font-weight: 500;
+    }
+    .subtitle {
+        padding-bottom: 8px;
+        border-bottom: 1px solid #a4acc4;
+    }
+    .details {
+        padding-left: 0;
+    }
+    .details::before {
+        display: none;
+    }
+    .details h6 {
+        margin-top: 14px;
+    }
 }
+
 
 /*RESPONSIVO*/
 
 @media screen and (max-width: 1000px) {
-	.historic:last-child{
-		margin-bottom: 50px;
-	}
+    .historic:last-child {
+        margin-bottom: 62px;
+    }
 }
 
 @media screen and (max-width: 380px) {
-
-	.skill .skill-graphic{
-		flex-direction: column;
-		align-items: baseline;
-	}
-
+    .skill .skill-graphic {
+        flex-direction: column;
+        align-items: baseline;
+    }
 }

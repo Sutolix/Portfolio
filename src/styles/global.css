@@ -1,131 +1,138 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  outline: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
 
-html, border-style, #root {
-  min-height: 100%;
+html,
+border-style,
+#root {
+    min-height: 100%;
 }
 
-body, input, button {
-  -webkit-font-smoothing: antialiased !important;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  line-height: 1.8rem;
+body,
+input,
+button {
+    -webkit-font-smoothing: antialiased !important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
 }
 
-select:focus, input:focus, button:focus, textarea:focus { box-shadow: none !important; }
+select:focus,
+input:focus,
+button:focus,
+textarea:focus {
+    box-shadow: none !important;
+}
 
 .select-color {
     color: #037fff;
 }
 
 .d-flex {
-  display: flex !important;
+    display: flex !important;
 }
 
-.justify-around{
-  justify-content: space-around !important;
+.justify-around {
+    justify-content: space-around !important;
 }
 
-.justify-center{
-  justify-content: center !important;
+.justify-center {
+    justify-content: center !important;
 }
 
-.align-center{
-  align-items: center !important;
+.align-center {
+    align-items: center !important;
 }
 
 .dinamic-space {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .content {
-  z-index: 1;
-  color: #fff;
-  width: 100%;
-  margin: 0 5%;
+    z-index: 1;
+    color: #fff;
+    width: 100%;
+    margin: 0 5%;
 }
 
 .page {
-  position: relative;
-  margin-left: 20vw;
-  width: 79%;
-  display: flex;
+    position: relative;
+    margin-left: 20vw;
+    width: 79%;
+    display: flex;
 }
 
 .title {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
-.title span{
-  font-size: 2em;
-  font-weight: 700;
+.title span {
+    font-size: 2em;
+    font-weight: 700;
 }
 
 .layer {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
 
-.layer span{
-  font-size: 2em;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.1);
+.layer span {
+    font-size: 2em;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.1);
 }
 
-.division{
-  width: 50px;
-  height: 2px;
-  background: #ccc;
-  margin: 7px 0;
+.division {
+    width: 50px;
+    height: 2px;
+    background: #ccc;
+    margin: 7px 0;
 }
 
-.btn-default{
-  background: #037fff;
-  color: #fff;
-  font-weight: 600;
-  border: none;
-  border-radius: 3px;
-  padding: 0 5px;
-  cursor: pointer;
+.btn-default {
+    background: #037fff;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    padding: 0 5px;
+    cursor: pointer;
 }
 
-.btn-default:hover{
-  filter: brightness(0.7);
+.btn-default:hover {
+    filter: brightness(0.7);
 }
+
 
 /*RESPONSIVO*/
 
 @media screen and (max-width: 1000px) {
-    .page{
+    .page {
         margin-left: 0;
         width: 100%;
     }
-
-    .lines{
-      width: 100vw;
-      margin: 0;
+    .lines {
+        width: 100vw;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .layer{
-      display: none;
+    .layer {
+        display: none;
     }
 }
 
 @media screen and (max-width: 445px) {
-    .content{
-      margin: 0 auto;
-      padding: 5%;
+    .content {
+        margin: 0 auto;
+        padding: 5%;
     }
-
-    .title span{
-      font-size: 1.8em;
+    .title span {
+        font-size: 1.8em;
     }
 }

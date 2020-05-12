@@ -1,5 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 import Routes from './router'
 
 import './styles/global.css'
@@ -9,4 +9,4 @@ ReactDOM.render(
     <Routes />
   </React.StrictMode>,
   document.getElementById('root')
-);
+)
