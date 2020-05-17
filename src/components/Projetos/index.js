@@ -5,6 +5,7 @@ import Background from '../Background'
 
 import kodlogo from '../../assets/img/kod-logo.png'
 import weather from '../../assets/img/weather-logo.png'
+import hero from '../../assets/img/hero-logo.png'
 import repo from '../../assets/img/repo-logo.png'
 import fale from '../../assets/img/fale-logo.png'
 import calcultor from '../../assets/img/calculator-logo.png'
@@ -46,8 +47,8 @@ export default function Projetos () {
           </div>
 
           <div className='project d-flex'>
-            <a href='https://planosfalemais.netlify.com/' target='_blank' rel='noopener noreferrer' title='Ver online' className='siteonline'>
-              <img src={fale} alt='kodfinder bird' />
+            <a href='https://planosfalemais.netlify.app' target='_blank' rel='noopener noreferrer' title='Ver online' className='siteonline'>
+              <img src={fale} alt='phone' />
             </a>
             <div className='project-details'>
               <h5>FaleMais</h5>
@@ -66,8 +67,28 @@ export default function Projetos () {
           </div>
 
           <div className='project d-flex'>
-            <a href='https://reposearch.netlify.app/' target='_blank' rel='noopener noreferrer' title='Ver online' className='siteonline'>
-              <img src={repo} alt='kodfinder bird' />
+            <a href='https://ongbethehero.netlify.app' target='_blank' rel='noopener noreferrer' title='Ver online' className='siteonline'>
+              <img src={hero} alt='hero' />
+            </a>
+            <div className='project-details'>
+              <h5>BeTheHero</h5>
+              <div className='division' />
+              <p>Uma aplicação para ONGs se cadastrarem e exporem casos pedindo ajuda com doações. Quem se interessar em ajudar
+                  algum dos casos pode entrar em contato com a ONG em questão pelo WhatsApp e ter mais detalhes.
+              </p>
+              <a
+                href='https://github.com/Sutolix/BeTheHero-SemanaOmniStack11'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <button className='btn-default'>Acessar repositório</button>
+              </a>
+            </div>
+          </div>
+
+          <div className='project d-flex'>
+            <a href='https://reposearch.netlify.app' target='_blank' rel='noopener noreferrer' title='Ver online' className='siteonline'>
+              <img src={repo} alt='github' />
             </a>
             <div className='project-details'>
               <h5>RepoSearch</h5>
@@ -86,8 +107,8 @@ export default function Projetos () {
           </div>
 
           <div className='project d-flex'>
-            <a href='https://weatherappimap.netlify.app/' target='_blank' rel='noopener noreferrer' title='Ver online' className='siteonline'>
-              <img src={weather} alt='kodfinder bird' />
+            <a href='https://weatherappimap.netlify.app' target='_blank' rel='noopener noreferrer' title='Ver online' className='siteonline'>
+              <img src={weather} alt='weather' />
             </a>
             <div className='project-details'>
               <h5>Weather App</h5>
@@ -107,7 +128,7 @@ export default function Projetos () {
 
           <div className='project d-flex'>
             <a href='https://sutolix.github.io/calculator/' target='_blank' rel='noopener noreferrer' title='Ver online' className='siteonline'>
-              <img src={calcultor} alt='kodfinder bird' />
+              <img src={calcultor} alt='calculator' />
             </a>
             <div className='project-details'>
               <h5>Calculator</h5>
