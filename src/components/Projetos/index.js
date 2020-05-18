@@ -83,6 +83,11 @@ export default function Projetos () {
               >
                 <button className='btn-default'>Acessar repositório</button>
               </a>
+              <a
+                href='https://firebasestorage.googleapis.com/v0/b/portfolio-73930.appspot.com/o/aplications%2Fbethehero-v1.2.apk?alt=media&token=af1bac14-31d1-4018-9081-861eba76e4c8'
+              >
+                <button className='btn-app'>Baixar aplicativo</button>
+              </a>
             </div>
           </div>
 
