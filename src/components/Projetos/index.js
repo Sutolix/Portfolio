@@ -74,7 +74,7 @@ export default function Projetos () {
               <h5>BeTheHero</h5>
               <div className='division' />
               <p>Uma aplicação para ONGs se cadastrarem e exporem casos pedindo ajuda com doações. Quem se interessar em ajudar
-                  algum dos casos pode entrar em contato com a ONG em questão pelo WhatsApp e ter mais detalhes.
+                  algum dos casos pode entrar em contato com a ONG em questão pelo WhatsApp ou Email e ter mais detalhes.
               </p>
               <a
                 href='https://github.com/Sutolix/BeTheHero-SemanaOmniStack11'
