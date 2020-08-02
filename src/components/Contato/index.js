@@ -28,7 +28,7 @@ export default function Contato () {
               </div>
               <div className=''>
                 <h5>Email</h5>
-                <span>tg884ght@gmail.com</span>
+                <span>tiagoslv.reis@gmail.com</span>
               </div>
             </div>
 
@@ -38,7 +38,7 @@ export default function Contato () {
               </div>
               <div className=''>
                 <h5>WhatsApp</h5>
-                <span>+55 31 99875-9023</span>
+                <span>+55 31 97157-9157</span>
               </div>
             </div>
 

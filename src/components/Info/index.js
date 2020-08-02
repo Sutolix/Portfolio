@@ -84,8 +84,15 @@ export const courses = [
 
 export const works = [
   {
+    name: 'Web Designer',
+    data: '2020 - Presente',
+    local: 'Informatiza Soluções Empresariais',
+    description: `Criação de sites institucionais e e-commerce, seguindo layouts modernos e minimalistas usando
+                  WordPress e Joomla para um desenvolvimento mais rápido e com melhor suporte administrativo ao cliente.`
+  },
+  {
     name: 'Professor de Informática',
-    data: '2019 - Presente',
+    data: '2019 - 2020',
     local: 'Autônomo',
     description: `Ensino de Informática básica com foco em ferramentas de escritório como Word e Excel.
                     Criação e formatação de provas e TCC.`
