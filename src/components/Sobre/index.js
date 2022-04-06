@@ -65,11 +65,11 @@ export default function Sobre () {
 
         <div className='services'>
           <div className='title'>
-            <span>SERCIÇOS</span>
+            <span>SERVIÇOS</span>
           </div>
 
           <div className='layer'>
-            <span>SERCIÇOS</span>
+            <span>SERVIÇOS</span>
           </div>
 
           <div className='s-items'>
